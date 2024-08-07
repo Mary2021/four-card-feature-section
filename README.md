@@ -132,6 +132,9 @@ export default defineConfig({
 - `npm run build`
 - commit changes!
 - `git subtree push --prefix dist origin gh-pages` this command will push up your /dist into a new or existing gh-pages branch
+
+For future deployments:
+
 - `npm install gh-pages --save-dev`
 - in your package.json add:
 
@@ -143,6 +146,8 @@ export default defineConfig({
   ...
 }
 ```
+
+Now all you need to do is to run `npm run deploy` and your app is newly deployed to gh-pages.
 
 ## Author
 
