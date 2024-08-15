@@ -1,9 +1,7 @@
 <script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
+import CardSection from '../components/CardSection.vue'
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+  <CardSection />
 </template>

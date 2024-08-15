@@ -15,6 +15,19 @@ a,
   padding: 3px;
 }
 
+h1 {
+  font-size: 6vw;
+  letter-spacing: 0.2vw;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bold {
+  letter-spacing: 0.3vw;
+  font-weight: bold;
+}
+
 @media (hover: hover) {
   a:hover {
     background-color: hsla(160, 100%, 37%, 0.2);
@@ -24,12 +37,12 @@ a,
 @media (min-width: 1024px) {
   body {
     display: flex;
-    place-items: center;
+    place-items: start;
   }
 
-  #app {
+  /* #app {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 0 2rem;
-  }
+  } */
 }
