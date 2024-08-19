@@ -44,7 +44,7 @@ export default {
     :food-title="card.title"
     :food-text="card.text"
     class="mx-auto my-8"
-    :style="{ borderColor: card.borderColor, borderTopWidth: 'thick !important' }"
+    :style="{ borderColor: card.borderColor }"
     elevation="16"
     max-width="344"
   >
