@@ -87,7 +87,7 @@ export default {
             <v-card-text> Monitors activity to identify project roadblocks </v-card-text>
             <v-img
               height="80px"
-              src="/four-card-feature-section/images/icon-supervisor.svg"
+              src="/four-card-feature-section/assets/images/icon-supervisor.svg"
             ></v-img>
           </v-card>
         </div>
@@ -101,7 +101,7 @@ export default {
             </v-card-text>
             <v-img
               height="80px"
-              src="/four-card-feature-section/images/icon-team-builder.svg"
+              src="/four-card-feature-section/assets/images/icon-team-builder.svg"
             ></v-img>
           </v-card>
           <div style="height: 2em"></div>
@@ -110,7 +110,10 @@ export default {
               <v-card-title> Karma </v-card-title>
             </v-card-item>
             <v-card-text> Regularly evaluates our talent to ensure quality </v-card-text>
-            <v-img height="80px" src="/four-card-feature-section/images/icon-karma.svg"></v-img>
+            <v-img
+              height="80px"
+              src="/four-card-feature-section/assets/images/icon-karma.svg"
+            ></v-img>
           </v-card>
         </div>
         <div style="align-self: center">
@@ -123,7 +126,7 @@ export default {
             </v-card-text>
             <v-img
               height="80px"
-              src="/four-card-feature-section/images/icon-calculator.svg"
+              src="/four-card-feature-section/assets/images/icon-calculator.svg"
             ></v-img>
           </v-card>
         </div>
