@@ -5,6 +5,8 @@
   margin: 0 auto;
   padding: 2rem;
   font-weight: normal;
+  display: grid;
+  justify-items: center;
 }
 
 a,
@@ -45,15 +47,129 @@ h1 {
   }
 }
 
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: start;
+@media (max-width: 959px) {
+  header {
+    width: 100%;
+    display: grid !important;
+    justify-content: center !important;
+    justify-items: center;
   }
 
-  /* #app {
+  h1 {
+    font-size: 6vw;
+    letter-spacing: 0.2vw;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  header p {
+    width: 100%;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+@media (min-width: 960px) {
+  header {
+    width: 60%;
+    display: grid !important;
+    justify-content: center !important;
+    justify-items: center;
+  }
+
+  h1 {
+    font-size: 3vw;
+    letter-spacing: 0.2vw;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  header p {
+    width: 80%;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .v-container {
+    margin-block: 2em;
+  }
+
+  .grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
-  } */
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2em;
+  }
+
+  .Supervisor {
+    height: 50%;
+    grid-column: 1;
+  }
+
+  .TeamBuilder {
+    grid-column: 2;
+  }
+
+  .Karma {
+    grid-column: 2;
+  }
+
+  .Calculator {
+    grid-column: 3;
+  }
+
+  .v-card {
+    display: inline-grid !important;
+  }
+}
+
+@media (min-width: 2560px) {
+  #app {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-weight: normal;
+    display: grid;
+    justify-items: center;
+  }
+  header {
+    width: 100%;
+    display: grid !important;
+    justify-content: center !important;
+    justify-items: center;
+  }
+
+  h1 {
+    font-size: 3vw;
+    letter-spacing: 0.2vw;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  p {
+    font-size: 1.2vw;
+  }
+
+  .v-container {
+    margin-block: 2em;
+  }
+
+  .v-card-title {
+    font-size: 2.2em !important;
+  }
+  .v-card-text {
+    font-size: 1.8em !important;
+  }
+
+  .v-img {
+    height: 150px !important;
+  }
 }

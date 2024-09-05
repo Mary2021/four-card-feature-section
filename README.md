@@ -10,8 +10,10 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
   - [Repo and live URL](#repo-and-live-URL)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [Other useful links](#other-useful-links)
+  - [Useful links](#useful-links)
 - [Vitejs + Vue 3](#vitejs--vue-3)
+- [Add Vuetify to Vitejs/Vue app](#add-vuetify-to-vitejsvue-app)
+- [Install collection of utility functions](#install-collection-of-utility-functions)
 - [Deploy to gh-pages](#deploy-to-gh-pages)
 - [Author](#author)
 
@@ -40,11 +42,16 @@ Users should be able to:
 - CSS custom properties
 - CSS grid
 - Mobile-first workflow
-- Vitejs + Vue
+- Vitejs (the Composition API) + Vue
 
-### Other useful links
+### Useful links
 
-- []()
+- [An Interactive Guide to CSS Grid](https://www.joshwcomeau.com/css/interactive-guide-to-grid/#alignment-9)
+- [Options API vs Composition API](https://vueschool.io/articles/vuejs-tutorials/options-api-vs-composition-api/)
+- [useWindowSize](https://vueuse.org/core/useWindowSize/)
+- [useScreenOrientation](https://vueuse.org/core/useScreenOrientation/)
+- [ScreenOrientation: change event](https://developer.mozilla.org/en-US/docs/Web/API/ScreenOrientation/change_event)
+- [The Key-Changing Technique](https://michaelnthiessen.com/force-re-render/)
 
 ## Vitejs + Vue 3
 
@@ -115,6 +122,10 @@ npm run lint
 ## Add Vuetify to Vitejs/Vue app
 
 [Existing projects](https://vuetifyjs.com/en/getting-started/installation/#existing-projects)
+
+## Install collection of utility functions
+
+`npm install @vueuse/core`
 
 ## Deploy to gh-pages
 
