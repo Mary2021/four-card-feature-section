@@ -11,7 +11,9 @@ import { RouterView } from 'vue-router'
       your project is successful
     </p>
   </header>
-  <RouterView />
+  <main>
+    <RouterView />
+  </main>
   <footer>
     <p>
       Challenge by
